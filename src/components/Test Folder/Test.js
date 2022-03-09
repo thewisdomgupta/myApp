@@ -4,7 +4,7 @@ const Test = () => {
     return (
         <div>
             <h1>
-                Hi I am From Teast Folder
+                Hi I am From Teast Folder Java Script
             </h1>
             
         </div>
