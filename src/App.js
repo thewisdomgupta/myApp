@@ -1,10 +1,12 @@
 import './App.css';
 import Ano from './components/Ano Folder/Ano';
 import Test from './components/Test Folder/Test';
+import AppBar from './components/AppBar/AppBar';
 
 function App() {
   return (
-    <div align="center">
+    <div >
+      <AppBar />
       <h1 class="myApp" align="center">
         Hello World
       </h1>
