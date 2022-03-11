@@ -1,28 +1,38 @@
 import React from 'react'
-import { Button, Box, AppBar, Toolbar, Typography, IconButton } from '@mui/material';
+import { Button, Box, AppBar, Toolbar, Typography } from '@mui/material';
 
 const AppBars = () => {
   return (
-    <div>
+    <>
       <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-          </IconButton>
+         
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Coding Zone
+            Compo Friend
           </Typography>
+        
+       
           <Button color="inherit">Login</Button>
+         
+       
+          <Button color="inherit">Upcoming</Button>
+      
+       
+          <Button color="inherit">Contact</Button>
+     
+         
+          <Button color="inherit">About</Button>
+         
+    
+          <Button color="inherit">Gallery</Button>
+ 
+          
         </Toolbar>
       </AppBar>
     </Box>
-    </div>
+   
+    </>
   )
 }
 
