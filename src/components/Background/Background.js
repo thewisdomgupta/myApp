@@ -8,7 +8,7 @@ const Background = () => {
 
       <img src={ Img1 } alt="Wallpaper"
       height={500}
-      width={1700}
+      width={1515}
       className="body"
       >
 
