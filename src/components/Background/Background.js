@@ -1,18 +1,16 @@
 import React from "react";
-import Img1 from '../../Image/ManRobot.jpg'
-// import {RemoveScrollBar} from 'react-remove-scroll-bar'
+import Img1 from "../../Image/ManRobot.jpg";
 
 const Background = () => {
   return (
     <div id="container1">
-
-      <img src={ Img1 } alt="Wallpaper"
-      height={500}
-      width={1515}
-      className="body"
-      >
-
-      </img>
+      <img
+        src={Img1}
+        alt="Wallpaper"
+        height={500}
+        width={1536}
+        className="body"
+      ></img>
     </div>
   );
 };
