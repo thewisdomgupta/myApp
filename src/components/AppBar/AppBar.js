@@ -11,23 +11,10 @@ const AppBars = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Compo Friend
           </Typography>
-        
-       
           <Button color="inherit">Login</Button>
-         
-       
-          <Button color="inherit">Upcoming</Button>
-      
-       
           <Button color="inherit">Contact</Button>
-     
-         
           <Button color="inherit">About</Button>
-         
-    
           <Button color="inherit">Gallery</Button>
- 
-          
         </Toolbar>
       </AppBar>
     </Box>
