@@ -12,7 +12,7 @@ import Img8 from "../Image/Whatsapp.jpg";
 const AboutSlider = () => {
   return (
     <div>
-      <Carousel>
+      <Carousel height="50px">
         <Carousel.Item interval={1000}>
           <img className="img-fluid" src={Img1} alt="First slide" />
         </Carousel.Item>

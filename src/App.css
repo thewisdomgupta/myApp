@@ -50,4 +50,26 @@
 .anchorClass:hover{
   color: white;
 }
+.CardForm{
+  /* align-items: center; */
+  width: 1500px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Card{
+  background: #0E202E;
+}
+.Border{
+border: 10mm ridge #231832;
+}
+.Div{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.TestHeader{
+  color:purple;
+}
+
 
