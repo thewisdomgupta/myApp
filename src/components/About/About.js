@@ -1,14 +1,13 @@
 import React from 'react'
 
-const Test = () => {
+const About = () => {
     return (
         <div>
             <h1>
-                Hi I am From Teast Folder Java Script
+                I am From About Component
             </h1>
-            
         </div>
     )
 }
 
-export default Test
+export default About

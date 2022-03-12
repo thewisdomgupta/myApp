@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../../Image/ManRobot.jpg";
+import Img1 from "../Image/ManRobot.jpg";
 
 const Background = () => {
   return (
@@ -7,9 +7,7 @@ const Background = () => {
       <img
         src={Img1}
         alt="Wallpaper"
-        height={500}
-        width={1536}
-        className="body"
+        className='img-fluid rounded-pill'
       ></img>
     </div>
   );

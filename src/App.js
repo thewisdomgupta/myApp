@@ -1,10 +1,11 @@
 import "./App.css";
-import Merge from "./components/MergeComponent/Merge";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavbarComp from "./components/Navbar/NavbarComp";
 
 function App() {
   return (
-    <div>
-      <Merge />
+    <div className="App">
+      <NavbarComp />
     </div>
   );
 }
