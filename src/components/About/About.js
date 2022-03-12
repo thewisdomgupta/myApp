@@ -1,11 +1,13 @@
 import React from 'react'
+import AboutSlider from '../AboutSlider/AboutSlider'
 
 const About = () => {
     return (
         <div>
             <h1>
-                I am From About Component
+                We are Providing Daily Updates & Current Affairs
             </h1>
+            <AboutSlider />
         </div>
     )
 }

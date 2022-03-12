@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Navbar, Nav, NavDropdown, Form, FormControl, Button,} from "react-bootstrap";
-import { BrowserRouter as Router, HashRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Home from "../Home/Home";
+import Upcoming from "../Upcoming/Upcoming";
 
 const NavbarComp = () => {
   return (
-    <Router>
+    <Router basename="/myApp">
       <div>
         <Navbar bg="primary" variant={"dark"} expand="lg">
           <Container fluid>
@@ -57,7 +58,10 @@ const NavbarComp = () => {
         </Navbar>
       </div>
       <div>
-        <HashRouter>
+        <Switch>
+        <Route path="/upcoming">
+            <Upcoming />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
@@ -67,7 +71,7 @@ const NavbarComp = () => {
           <Route path="/">
             <Home />
           </Route>
-        </HashRouter>
+        </Switch>
       </div>
     </Router>
   );
