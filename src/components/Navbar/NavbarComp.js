@@ -40,7 +40,7 @@ const NavbarComp = () => {
                 <Nav.Link as={Link} to={"/contact"}>
                   Contact
                 </Nav.Link>
-                <a href= "https://khabarflashback.blogspot.com/" className="anchorClass">
+                <a href= "https://khabarflashback.blogspot.com/" target="_blank" rel="noopener noreferrer"className="anchorClass">
                   Blog
                 </a>
                 {/* <Nav.Link href="#action2">Upcoming</Nav.Link> */}
