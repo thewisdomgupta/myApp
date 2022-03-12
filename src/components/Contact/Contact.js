@@ -42,7 +42,7 @@ const Contact = () => {
         errors,
       }) => (
         <Form noValidate onSubmit={handleSubmit} className="Border">
-            <h1 className="TestHeader">Contact Form</h1>
+            <h1 className="animate-charcter">Contact Form</h1>
             <hr />
           <Row className="mb-3">
             <Form.Group

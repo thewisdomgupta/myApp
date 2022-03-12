@@ -1,9 +1,29 @@
 import React from "react";
-import { Accordion } from "react-bootstrap";
+import { Accordion, Spinner } from "react-bootstrap";
+import { Wave } from 'react-animated-text';
+import Img1 from '../Image/CompoFriend.png'
 
 const HomeMessage = () => {
   return (
     <div>
+      <Spinner animation="grow" variant="success"/>
+      <spin className="Spin">Compo Friend Secure Mode Activated</spin>
+      <Spinner animation="grow" variant="success"/>
+      <br />
+      <img
+        src={Img1}
+        alt="Compo Friend Logo"
+        className='rotate'
+      ></img>
+      <img
+        src={Img1}
+        alt="Compo Friend Logo"
+        className='rotate'
+      ></img>
+      <br />
+      <br />
+      
+      <Wave text="A BETTER DIGITAL INFRASTRUCTURE FOR THE HUMANITY" effect="stretch" effectChange={2.0} />
       <Accordion defaultActiveKey={["0"]} alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Accordion Item #1</Accordion.Header>
