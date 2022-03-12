@@ -1,5 +1,6 @@
 import React from "react";
 import Img1 from "../Image/ManRobot.jpg";
+import HomeMessage from "../HomeAccordionMessage/HomeMessage";
 
 const Background = () => {
   return (
@@ -9,6 +10,7 @@ const Background = () => {
         alt="Wallpaper"
         className='img-fluid rounded-pill'
       ></img>
+      <HomeMessage />
     </div>
   );
 };

@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Navbar, Nav, NavDropdown, Form, FormControl, Button,} from "react-bootstrap";
+import {
+  Container,
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
@@ -20,7 +28,7 @@ const NavbarComp = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link as={Link} to={"/home"}>
+                <Nav.Link as={Link} to={"/home"} >
                   Home
                 </Nav.Link>
                 <Nav.Link as={Link} to={"/upcoming"}>
@@ -32,6 +40,9 @@ const NavbarComp = () => {
                 <Nav.Link as={Link} to={"/contact"}>
                   Contact
                 </Nav.Link>
+                <a href= "https://khabarflashback.blogspot.com/" className="anchorClass">
+                  Blog
+                </a>
                 {/* <Nav.Link href="#action2">Upcoming</Nav.Link> */}
                 <NavDropdown title="Link" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
@@ -59,7 +70,7 @@ const NavbarComp = () => {
       </div>
       <div>
         <Switch>
-        <Route path="/upcoming">
+          <Route path="/upcoming">
             <Upcoming />
           </Route>
           <Route path="/about">

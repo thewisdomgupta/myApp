@@ -40,4 +40,14 @@
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+.anchorClass{
+  margin-top: 8px;
+  text-decoration: none;
+  color: #B7D7FF;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.anchorClass:hover{
+  color: white;
+}
 
