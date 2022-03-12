@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myApp/static/css/main.e0900f7e.css",
-    "main.js": "/myApp/static/js/main.3349405d.js",
+    "main.css": "/myApp/static/css/main.27e3be3e.css",
+    "main.js": "/myApp/static/js/main.9512d4aa.js",
     "static/js/787.60235f71.chunk.js": "/myApp/static/js/787.60235f71.chunk.js",
     "static/media/ManRobot.jpg": "/myApp/static/media/ManRobot.f2b0136abe87dd9367a1.jpg",
     "static/media/BUGS.jpg": "/myApp/static/media/BUGS.4b8a5ca5ddca2936518e.jpg",
@@ -13,12 +13,12 @@
     "static/media/Whatsapp.jpg": "/myApp/static/media/Whatsapp.fcf9602b42d589ae2725.jpg",
     "static/media/VIVEK QUOTE.jpg": "/myApp/static/media/VIVEK QUOTE.dcfd33406c4eb3919e02.jpg",
     "index.html": "/myApp/index.html",
-    "main.e0900f7e.css.map": "/myApp/static/css/main.e0900f7e.css.map",
-    "main.3349405d.js.map": "/myApp/static/js/main.3349405d.js.map",
+    "main.27e3be3e.css.map": "/myApp/static/css/main.27e3be3e.css.map",
+    "main.9512d4aa.js.map": "/myApp/static/js/main.9512d4aa.js.map",
     "787.60235f71.chunk.js.map": "/myApp/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0900f7e.css",
-    "static/js/main.3349405d.js"
+    "static/css/main.27e3be3e.css",
+    "static/js/main.9512d4aa.js"
   ]
 }
