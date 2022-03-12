@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, NavDropdown, Form, FormControl, Button,} from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Link } from "react-router-dom";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Home from "../Home/Home";
@@ -22,13 +22,16 @@ const NavbarComp = () => {
                 <Nav.Link as={Link} to={"/home"}>
                   Home
                 </Nav.Link>
+                <Nav.Link as={Link} to={"/upcoming"}>
+                  Upcoming
+                </Nav.Link>
                 <Nav.Link as={Link} to={"/about"}>
                   About
                 </Nav.Link>
                 <Nav.Link as={Link} to={"/contact"}>
                   Contact
                 </Nav.Link>
-                <Nav.Link href="#action2">Upcoming</Nav.Link>
+                {/* <Nav.Link href="#action2">Upcoming</Nav.Link> */}
                 <NavDropdown title="Link" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action4">
@@ -54,7 +57,7 @@ const NavbarComp = () => {
         </Navbar>
       </div>
       <div>
-        <Switch>
+        <HashRouter>
           <Route path="/about">
             <About />
           </Route>
@@ -64,7 +67,7 @@ const NavbarComp = () => {
           <Route path="/">
             <Home />
           </Route>
-        </Switch>
+        </HashRouter>
       </div>
     </Router>
   );
