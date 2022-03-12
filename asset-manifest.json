@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/myApp/static/css/main.27e3be3e.css",
-    "main.js": "/myApp/static/js/main.9512d4aa.js",
+    "main.css": "/myApp/static/css/main.63a817e0.css",
+    "main.js": "/myApp/static/js/main.565ea11a.js",
     "static/js/787.60235f71.chunk.js": "/myApp/static/js/787.60235f71.chunk.js",
     "static/media/ManRobot.jpg": "/myApp/static/media/ManRobot.f2b0136abe87dd9367a1.jpg",
     "static/media/BUGS.jpg": "/myApp/static/media/BUGS.4b8a5ca5ddca2936518e.jpg",
+    "static/media/CompoFriend.png": "/myApp/static/media/CompoFriend.3fda0e643137d4893588.png",
     "static/media/CMOS.jpg": "/myApp/static/media/CMOS.b8b97fe1b935ecefdf06.jpg",
     "static/media/NGO.jpg": "/myApp/static/media/NGO.95dccffeca1c10e70397.jpg",
     "static/media/PSLV.jpg": "/myApp/static/media/PSLV.ab11587ce1113c220fba.jpg",
@@ -13,12 +14,12 @@
     "static/media/Whatsapp.jpg": "/myApp/static/media/Whatsapp.fcf9602b42d589ae2725.jpg",
     "static/media/VIVEK QUOTE.jpg": "/myApp/static/media/VIVEK QUOTE.dcfd33406c4eb3919e02.jpg",
     "index.html": "/myApp/index.html",
-    "main.27e3be3e.css.map": "/myApp/static/css/main.27e3be3e.css.map",
-    "main.9512d4aa.js.map": "/myApp/static/js/main.9512d4aa.js.map",
+    "main.63a817e0.css.map": "/myApp/static/css/main.63a817e0.css.map",
+    "main.565ea11a.js.map": "/myApp/static/js/main.565ea11a.js.map",
     "787.60235f71.chunk.js.map": "/myApp/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27e3be3e.css",
-    "static/js/main.9512d4aa.js"
+    "static/css/main.63a817e0.css",
+    "static/js/main.565ea11a.js"
   ]
 }
